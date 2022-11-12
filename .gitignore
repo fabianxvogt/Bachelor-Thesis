@@ -1,5 +1,6 @@
 *.fasta
 *.pyc
+*/pytorch_model.bin
 cache*
 dna_cache*
 DNABERT/examples/runs
