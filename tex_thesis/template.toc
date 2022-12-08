@@ -1,0 +1,53 @@
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Section}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem- und Zielstellung (Scope)}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Theorie}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction to Machine Learning}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Domain}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Technologien}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Methoden und Konzepte}{4}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Transformer Model}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}...}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}...}{4}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}BERT Model}{4}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}...}{4}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}...}{4}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Reinforcement Learning}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Basics}{4}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}DNA Correction Game}{4}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Different approaches}{4}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Methodology}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Transformer}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Reinforcement Learning}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}...}{5}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Requirements}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Nutzer- und Systemanforderungen}{6}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Funktionale Anforderungen}{6}{subsection.4.1.1}%
+\contentsline {subsubsection}{Obligatorisch (MUSS)}{6}{subsection.4.1.1}%
+\contentsline {subsubsection}{Fakultativ (Kann)}{6}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Nicht-funktionale Anforderungen}{6}{subsection.4.1.2}%
+\contentsline {subsubsection}{Obligatorisch (MUSS)}{6}{subsection.4.1.2}%
+\contentsline {subsubsection}{Fakultativ (Kann)}{6}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}...}{6}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Concept \& Design}{7}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prozess}{7}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Systemarchitektur}{7}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Softwarearchitektur}{7}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Schnittstellen}{7}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Datenmanagement}{7}{section.5.5}%
+\contentsline {section}{\numberline {5.6}...}{7}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Implementation}{8}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Tests}{9}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Presentation & Evaluation of Results}{10}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Summary}{11}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Conclusions}{11}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations}{11}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Outlook}{11}{section.9.3}%
+\contentsline {chapter}{\numberline {10}List of abbreviations}{12}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Glossary}{I}{chapter.11}%
+\contentsline {chapter}{\numberline {A}Appendix}{II}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Source code}{II}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipps zum Schreiben Ihrer Abschlussarbeit}{II}{section.A.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

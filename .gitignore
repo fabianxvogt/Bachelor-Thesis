@@ -10,5 +10,5 @@ DNA_RL/utilities/DNABERT/src/transformers/data/metrics/__pycache__
 DNA_RL/utilities/DNABERT/src/transformers/data/processors/__pycache__
 DNA_RL/utilities/DNABERT/src/transformers/__pycache__
 DNA_RL/utilities/DNABERT/src/transformers.egg-info
-RL/*
-data/*
+DNA_RL/models/*
+*.fa
