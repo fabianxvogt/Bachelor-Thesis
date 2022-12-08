@@ -4,22 +4,25 @@ import gym
 import numpy as np
 from gym import spaces
 from gym.utils import seeding
+from gym_envs.dna_env import DNA_Env
 from utilities.dna_utils import distort_seq, random_window, seq_similarity,base_flip
 from utilities.bert_utils import bert_seq
 
 ACTIONS = [0,1,2,3] # No of base flips
+BASES = ['A', 'C', 'G', 'T']
 
 # TODO: Clean up
 
-class DNA_Environment(gym.Env):
+class DNA_Environment(DNA_Env):
     environment_name = "DNA Correction Game"
 
-    def __init__(self, dna, environment_dimension=4, deterministic=False):
-
-        self.action_space = spaces.Discrete(environment_dimension)
-        self.observation_space = spaces.Box(0, 1, shape=(69,), dtype='float32')
+    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, use_bert_states=True, kmer_shift=0):
+        super().__init__(full_dna, error_rate, error_seed, random_processing, use_bert_states=use_bert_states, kmer_shift=kmer_shift)
         
-        self.dna = dna
+        self.action_space = spaces.Discrete(4)
+        self.observation_space = spaces.Box(0, 1, shape=(768,), dtype='float32')
+        
+        self.dna = full_dna
         #self.actual_seq, self.error_seq, self.bert_states = get_env_input(dna) 
         self.index = 0
         self.corrected_seq = ""
@@ -33,14 +36,13 @@ class DNA_Environment(gym.Env):
         self.seed()
         self.reward_threshold = 0.0
         self.trials = 50
-        self.max_episode_steps = environment_dimension
+        self.max_episode_steps = 4
         self.id = "DNA Correction"
         self.description = "DNA Correction"
-        self.environment_dimension = environment_dimension
+        self.environment_dimension = 4
         self.reward_for_achieving_goal = self.environment_dimension
         self.step_reward_for_not_achieving_goal = -1
 
-        self.deterministic = deterministic
 
     def seed(self, seed=None):
         self.np_random, seed = seeding.np_random(seed)
@@ -62,6 +64,7 @@ class DNA_Environment(gym.Env):
         error_base = self.error_seq[self.index]
         actual_base = self.actual_seq[self.index]
 
+        #corrected_base = BASES[action]
         corrected_base = base_flip(error_base, action) #BASES[action] #
         self.corrected_seq += corrected_base
 
@@ -69,28 +72,33 @@ class DNA_Environment(gym.Env):
         if (error_base != actual_base): # Error base
             if (corrected_base == actual_base): # Error corrected
                 self.errors_corrected += 1
-                reward = 200
+                reward = 2430
             else:
-                reward = 10
+                if (corrected_base != error_base): #Error found but not corrected
+                    reward = 0
+                else: # Error not found
+                    reward = -90
         else:
             if (actual_base != corrected_base): # New Error made
                 self.errors_made += 1
-                reward = -30
+                reward = -90
             else:
-                reward = 0
+                reward = 10
 
         self.total_reward += reward
         self.index += 1
-        next_state = self.bert_states[self.index]
 
         done = False
         if self.index >= len(self.actual_seq):
             self.total_total_reward += self.total_reward
             self.render()
             done = True
+            next_state = None
+        else:
+            next_state = self.bert_states[self.index].detach()
 
 
-        return np.array(next_state.detach()), reward, done, {}
+        return np.array(next_state), reward, done, {}
        
     def compute_reward(self, corrected_base, actual_base, info):
         """Computes the reward we would have got with this achieved goal and desired goal. Must be of this exact
