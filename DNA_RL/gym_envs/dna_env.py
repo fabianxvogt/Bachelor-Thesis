@@ -31,15 +31,15 @@ class DNA_Env(gym.Env):
         return dna_sample, error_seq, error_map, bert_states
 
 
-    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, training_mode=False, use_bert_states=True, kmer_shift=0):
+    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, training_mode=False, use_bert_states=True, kmer_shift=0, seq_len=100):
 
-        self.DNA_seq_manager = DNA_sequence_manager()
+        self.DNA_seq_manager = DNA_sequence_manager(seq_len)
         self.full_dna = full_dna
         self.error_rate = error_rate
         self.error_seed = error_seed
         self.random_processing = random_processing
         self.sequences_processed = 0
-        self.window_size = 100
+        self.window_size = seq_len
         self.use_bert_states = use_bert_states
         self.kmer_shift = kmer_shift
 

@@ -5,12 +5,13 @@ import random
  # Rege
 
 class DNA_sequence_manager():
-    def __init__(self):
+    def __init__(self, seq_len):
         self.index = 0
         self.sequences = None
         self.input_file = "/Users/I570101/Documents/Bachelor-Thesis/DNA_RL/data/GRCh38_latest_genomic.fa"
         self.fasta_sequences = SeqIO.parse(open(self.input_file),'fasta')
         self.regex = compile(r"[^N]+(?=N[^N]*N)")
+        self.seq_len = seq_len
 
     def get_new_sequence(self, random_select = True):
         if (self.sequences == None or (self.index >= len(self.sequences)-1)):
@@ -31,7 +32,7 @@ class DNA_sequence_manager():
         seqs = self.split_fasta_sequence(fasta_seq)
         input_sequences = []
         for seq in seqs:
-            input_sequences += self.split_sequence_by_length(seq)
+            input_sequences += self.split_sequence_by_length(seq, self.seq_len)
 
         return input_sequences
 
@@ -48,7 +49,7 @@ class DNA_sequence_manager():
             sequences.append(fasta_sequence[match.regs[0][0]:match.regs[0][1]])
         return sequences
 
-    def split_sequence_by_length(self, sequence, length=100):
+    def split_sequence_by_length(self, sequence, length):
         sequences = [sequence[i:i+length] for i in range(0, len(sequence), length)]
         return sequences[:-1]
 
