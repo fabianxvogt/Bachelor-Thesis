@@ -10,11 +10,11 @@ from gym_envs.dna_env import DNA_Env
 
 ACTIONS = [0,1] # 0 = OK, 1 = Error
 
-class DNA_Error_Detection_Env(DNA_Env):
+class DNA_Error_Detection_Single2_Env(DNA_Env):
     environment_name = "DNA Error Detection Game"
 
-    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, use_bert_states=True, kmer_shift=0, seq_len=100):
-        super().__init__(full_dna, error_rate, error_seed, random_processing, use_bert_states=use_bert_states, kmer_shift=kmer_shift, seq_len=seq_len)
+    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, use_bert_states=True, kmer_shift=0):
+        super().__init__(full_dna, error_rate, error_seed, random_processing, use_bert_states=use_bert_states, kmer_shift=kmer_shift)
         self.action_space = spaces.Discrete(2)
         self.observation_space = spaces.Box(0, 1, shape=(len(self.bert_states[0]),), dtype='float32')
         self.actions_total = 0
@@ -32,21 +32,32 @@ class DNA_Error_Detection_Env(DNA_Env):
             self.predicted_error_map[self.index] = 1
 
 
+        done = False
+        
         self.total_steps += 1
 
         if self.error_map[self.index] == 1:
             self.errors_total += 1
 
-        reward = self.compute_reward(self.error_map[self.index], action, {})
+        if action == 1:
+            done = True
+            if self.error_map[self.index] == 1:
+                self.errors_found+= 1
+                reward = 1
+            else:
+                self.errors_made += 1
+                reward = -1
+        else:
+            reward = 0
+        #reward = self.compute_reward(self.error_map[self.index], action, {})
         self.total_reward += reward
 
         self.index += 1
-
-        done = False
-        if self.index >= len(self.actual_seq):
+        
+        if done:
             self.total_total_reward += self.total_reward
             self.sequences_processed += 1
-            done = True
+            #done = True
             next_state = None
             self.errors_made_total += self.errors_made
             self.errors_corrected_total += self.errors_found
@@ -73,7 +84,7 @@ class DNA_Error_Detection_Env(DNA_Env):
         error_rate = self.errors_total/self.total_steps if self.errors_total > 0 else 0.1
         action_rate = self.actions_total/self.total_steps if self.actions_total > 0 else error_rate
 
-        errors_found_missed_ratio = self.errors_corrected_total/(self.errors_corrected_total+self.errors_missed_total) if self.errors_missed_total > 0 else error_rate
+        errors_found_missed_ratio = self.errors_corrected_total/(self.errors_corrected_total+self.errors_missed_total) if self.errors_corrected_total > 0 else error_rate
        
 
         errors_made_DIV_correct_found = self.errors_made_total/self.corrects_found_total if self.corrects_found_total > 0 else 1/action_rate
@@ -98,8 +109,7 @@ class DNA_Error_Detection_Env(DNA_Env):
         return reward 
 
     def render(self, mode='human', close=False):
-        print("\nSequence length : " + str(len(self.actual_seq)))
-        print("Acutal:        " + self.actual_seq[0:40])
+        print("\nAcutal:        " + self.actual_seq[0:40])
         print("Errors:        " + self.error_seq[0:40])
         print("Error Map:     " + str(self.error_map[0:40]))
         print("Predicted Map: " + str(self.predicted_error_map[0:40]))
@@ -112,7 +122,7 @@ class DNA_Error_Detection_Env(DNA_Env):
         print("Wrong Errors: " + str(self.errors_made))
         error_rate = self.errors_total/self.total_steps if self.errors_total > 0 else 0.1
         error_made_DIV_error_found = self.errors_missed_total/self.errors_corrected_total if self.errors_corrected_total > 0 else 1
-        print("Error: " + str(error_rate))
+        print("Error: " + str(error_made_DIV_error_found*error_rate+error_rate if self.errors_made_total > 0 else 1))
         if self.sequences_processed > 0: print("Actions: " +str(round((self.errors_corrected_total+self.errors_made_total)/(self.sequences_processed*100),4)))
         if self.errors_missed_total > 0: print("Corrected/Missed: " +str(round(self.errors_corrected_total/self.errors_missed_total,4)))
         if self.errors_made_total > 0: print("Corrected/falsified: " +str(round(self.errors_corrected_total/self.errors_made_total,4)))

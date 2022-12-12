@@ -16,8 +16,8 @@ BASES = ['A', 'C', 'G', 'T']
 class DNA_Environment(DNA_Env):
     environment_name = "DNA Correction Game"
 
-    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, use_bert_states=True, kmer_shift=0):
-        super().__init__(full_dna, error_rate, error_seed, random_processing, use_bert_states=use_bert_states, kmer_shift=kmer_shift)
+    def __init__(self, full_dna, error_rate, error_seed=None, random_processing=True, use_bert_states=True, kmer_shift=0, seq_len=100):
+        super().__init__(full_dna, error_rate, error_seed, random_processing, use_bert_states=use_bert_states, kmer_shift=kmer_shift, seq_len=seq_len)
         
         self.action_space = spaces.Discrete(4)
         self.observation_space = spaces.Box(0, 1, shape=(768,), dtype='float32')
@@ -64,8 +64,8 @@ class DNA_Environment(DNA_Env):
         error_base = self.error_seq[self.index]
         actual_base = self.actual_seq[self.index]
 
-        #corrected_base = BASES[action]
-        corrected_base = base_flip(error_base, action) #BASES[action] #
+        corrected_base = BASES[action]
+        #corrected_base = base_flip(error_base, action) #BASES[action] #
         self.corrected_seq += corrected_base
 
         reward = 0

@@ -1,15 +1,13 @@
-\babel@toc {nil}{}\relax 
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces \"Ubersicht: Untersuchte Steinl\"ause\relax }}{2}{table.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {lstlisting}{\numberline {6.1}{\ignorespaces Ein Beispiel: Hello World (Scala)}}{10}{lstlisting.6.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\addvspace {10\p@ }
