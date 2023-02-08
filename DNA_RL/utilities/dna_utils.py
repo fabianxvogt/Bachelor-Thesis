@@ -3,7 +3,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 import random 
 import math 
-from .bert_utils import bert_seq
+from .bert_utils import generate_dnabert_states
 
 
 BASES = ['A', 'C', 'G', 'T']
@@ -14,7 +14,7 @@ def distort_seq(dna, probability, seed = None):
     error_map = [0]*len(dna)
     if seed != None: random.seed(seed)
     for i, c in enumerate(dna):
-        if ((c != 'Z') & random_error(probability)):
+        if ((c != 'Z') and random_error(probability) and i > 1): # Do not modify first two bases because of 3-kmer tokenization
             error_dna += random_base_switch(c)
             error_map[i] = 1
         else:
@@ -72,7 +72,7 @@ def predict_error_map(dna):
 def get_env_input(sequence, error_propability = ERROR_PROPABILITY, error_seed = None):
     seq_window = random_window(sequence)
     error_seq, error_map = distort_seq(seq_window, error_propability, error_seed)
-    bert_states = bert_seq(error_seq)
+    bert_states = generate_dnabert_states(error_seq)
     return seq_window, error_seq, error_map, bert_states
 
 

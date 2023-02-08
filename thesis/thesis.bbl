@@ -1,0 +1,880 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{genomeDifference}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AVTKA}{%
+         family={Ajit\bibnamedelima Varki},
+         familyi={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={Tasha K.\bibnamedelima Altheide},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory Press}%
+    }
+    \strng{namehash}{AVTKA1}
+    \strng{fullhash}{AVTKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{Online:
+  \url{https://genome.cshlp.org/content/15/12/1746.full}; letzter Zugriff:
+  01.02.2023}
+    \field{title}{Comparing the human and chimpanzee genomes: Searching for
+  needles in a haystack}
+    \field{year}{2009}
+  \endentry
+
+  \entry{deepRL}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AK}{%
+         family={Arulkumaran},
+         familyi={A\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DMP}{%
+         family={Deisenroth},
+         familyi={D\bibinitperiod},
+         given={Marc\bibnamedelima Peter},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brundage},
+         familyi={B\bibinitperiod},
+         given={Miles},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BAA}{%
+         family={Bharath},
+         familyi={B\bibinitperiod},
+         given={Anil\bibnamedelima Anthony},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Arxiv.org}%
+    }
+    \strng{namehash}{AK+1}
+    \strng{fullhash}{AKDMPBMBAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{Online: \url{https://arxiv.org/pdf/1708.05866.pdf}; letzter
+  Zugriff: 14.01.2023}
+    \field{title}{A Brief Survey of Deep Reinforcement Learning}
+    \field{year}{2017}
+  \endentry
+
+  \entry{RLTrafficControl}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DX}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Xingyuan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xiaoshuang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WFY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Fei-Yue},
+         giveni={F\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DX+1}
+    \strng{fullhash}{DXZCLXWXWFY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{2021 China Automation Congress (CAC)}
+    \verb{doi}
+    \verb 10.1109/CAC53003.2021.9728551
+    \endverb
+    \field{note}{Online: \url{https://ieeexplore.ieee.org/document/9728551};
+  letzter Zugriff: 14.01.2023}
+    \field{pages}{8090\bibrangedash 8095}
+    \field{title}{Traffic Signal Control Using Offline Reinforcement Learning}
+    \field{year}{2021}
+  \endentry
+
+  \entry{bert}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DJ}{%
+         family={Devlin},
+         familyi={D\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CMW}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Ming-Wei},
+         giveni={M\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Kenton},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Toutanova},
+         familyi={T\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Arxiv.org}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJCMWLKTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Online: \url{https://arxiv.org/abs/1810.04805}; letzter
+  Zugriff: 11.01.2023}
+    \field{title}{BERT: Pre-training of Deep Bidirectional Transformers for
+  Language Understanding}
+    \field{year}{2019}
+  \endentry
+
+  \entry{RLDiabetes}{article}{}
+    \name{author}{5}{}{%
+      {{hash=JMOM}{%
+         family={Javad},
+         familyi={J\bibinitperiod},
+         given={Mahsa Oroojeni\bibnamedelima Mohammad},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=ASO}{%
+         family={Agboola},
+         familyi={A\bibinitperiod},
+         given={Stephen\bibnamedelima Olusegun},
+         giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jethwani},
+         familyi={J\bibinitperiod},
+         given={Kamal},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zeid},
+         familyi={Z\bibinitperiod},
+         given={Abe},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kamarthi},
+         familyi={K\bibinitperiod},
+         given={Sagar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JMIR Diabetes}%
+    }
+    \strng{namehash}{JMOM+1}
+    \strng{fullhash}{JMOMASOJKZAKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{note}{Online: \url{https://diabetes.jmir.org/2019/3/e12905/};
+  letzter Zugriff: 14.01.2023}
+    \field{title}{A Reinforcement Learning–Based Method for Management of
+  Type 1 Diabetes: Exploratory Study}
+    \field{year}{2019}
+  \endentry
+
+  \entry{dnabert}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JY}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Yanrong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Zhihan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Han},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DRV}{%
+         family={Davuluri},
+         familyi={D\bibinitperiod},
+         given={Ramana\bibnamedelima V},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JY+1}
+    \strng{fullhash}{JYZZLHDRV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    {Deciphering the language of non-coding DNA is one of the fundamental
+  problems in genome research. Gene regulatory code is highly complex due to
+  the existence of polysemy and distant semantic relationship, which previous
+  informatics methods often fail to capture especially in data-scarce
+  scenarios.To address this challenge, we developed a novel pre-trained
+  bidirectional encoder representation, named DNABERT, to capture global and
+  transferrable understanding of genomic DNA sequences based on up and
+  downstream nucleotide contexts. We compared DNABERT to the most widely used
+  programs for genome-wide regulatory elements prediction and demonstrate its
+  ease of use, accuracy and efficiency. We show that the single pre-trained
+  transformers model can simultaneously achieve state-of-the-art performance on
+  prediction of promoters, splice sites and transcription factor binding sites,
+  after easy fine-tuning using small task-specific labeled data. Further,
+  DNABERT enables direct visualization of nucleotide-level importance and
+  semantic relationship within input sequences for better interpretability and
+  accurate identification of conserved sequence motifs and functional genetic
+  variant candidates. Finally, we demonstrate that pre-trained DNABERT with
+  human genome can even be readily applied to other organisms with exceptional
+  performance. We anticipate that the pre-trained DNABERT model can be fined
+  tuned to many other sequence analyses tasks.The source code, pretrained and
+  finetuned model for DNABERT are available at GitHub
+  (https://github.com/jerryji1993/DNABERT).Supplementary data are available at
+  Bioinformatics online.}%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btab083
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/bioinformatics/article-pdf/37/15/2112/396223
+    \verb 03/btab083.pdf
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{15}
+    \field{pages}{2112\bibrangedash 2120}
+    \field{title}{{DNABERT: pre-trained Bidirectional Encoder Representations
+  from Transformers model for DNA-language in genome}}
+    \verb{url}
+    \verb https://doi.org/10.1093/bioinformatics/btab083
+    \endverb
+    \field{volume}{37}
+    \field{journaltitle}{Bioinformatics}
+    \field{month}{02}
+    \field{year}{2021}
+  \endentry
+
+  \entry{metzker2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MML}{%
+         family={Metzker},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory Press}%
+    }
+    \strng{namehash}{MML1}
+    \strng{fullhash}{MML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Online:
+  \url{https://genome.cshlp.org/content/15/12/1767.full.pdf+html}; letzter
+  Zugriff: 11.01.2023}
+    \field{title}{Emerging technologies in DNA sequencing}
+    \field{year}{2005}
+  \endentry
+
+  \entry{A2C}{article}{}
+    \name{author}{8}{}{%
+      {{hash=MV}{%
+         family={Mnih},
+         familyi={M\bibinitperiod},
+         given={Volodymyr},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BAP}{%
+         family={Badia},
+         familyi={B\bibinitperiod},
+         given={Adrià\bibnamedelima Puigdomènech},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mirza},
+         familyi={M\bibinitperiod},
+         given={Mehdi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LTP}{%
+         family={Lillicrap},
+         familyi={L\bibinitperiod},
+         given={Timothy\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Harley},
+         familyi={H\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Machine Learning (cs.LG), FOS: Computer and information sciences,
+  FOS: Computer and information sciences}
+    \strng{namehash}{MV+1}
+    \strng{fullhash}{MVBAPMMGALTPHTSDKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.48550/ARXIV.1602.01783
+    \endverb
+    \field{title}{Asynchronous Methods for Deep Reinforcement Learning}
+    \verb{url}
+    \verb https://arxiv.org/abs/1602.01783
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{DQN}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MV}{%
+         family={Mnih},
+         familyi={M\bibinitperiod},
+         given={Volodymyr},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Antonoglou},
+         familyi={A\bibinitperiod},
+         given={Ioannis},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wierstra},
+         familyi={W\bibinitperiod},
+         given={Daan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Riedmiller},
+         familyi={R\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Machine Learning (cs.LG), FOS: Computer and information sciences,
+  FOS: Computer and information sciences}
+    \strng{namehash}{MV+1}
+    \strng{fullhash}{MVKKSDGAAIWDRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.48550/ARXIV.1312.5602
+    \endverb
+    \field{title}{Playing Atari with Deep Reinforcement Learning}
+    \verb{url}
+    \verb https://arxiv.org/abs/1312.5602
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{faceRecognition}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NA}{%
+         family={Najibi},
+         familyi={N\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harvard University}%
+    }
+    \strng{namehash}{NA1}
+    \strng{fullhash}{NA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{Online:
+  \url{https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/};
+  letzter Zugriff: 01.02.2023}
+    \field{title}{Racial Discrimination in Face Recognition Technology}
+    \field{year}{2020}
+  \endentry
+
+  \entry{MLgood2know}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PD}{%
+         family={Pedro},
+         familyi={P\bibinitperiod},
+         given={Domingos},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {washington.edu}%
+    }
+    \strng{namehash}{PD1}
+    \strng{fullhash}{PD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{Online:
+  \url{https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf}; letzter
+  Zugriff: 14.01.2023}
+    \field{title}{A Few Useful Things to Know About Machine Learning}
+    \field{year}{2012}
+  \endentry
+
+  \entry{NGS}{article}{}
+    \name{author}{10}{}{%
+      {{hash=PA}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={Anchita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bhargava},
+         familyi={B\bibinitperiod},
+         given={Harshita},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Ayam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shukla},
+         familyi={S\bibinitperiod},
+         given={Nidhi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rajagopal},
+         familyi={R\bibinitperiod},
+         given={Shalini},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Sonal},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Amita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Valadi},
+         familyi={V\bibinitperiod},
+         given={Jayaraman},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Nigam},
+         familyi={N\bibinitperiod},
+         given={Vinod},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Suravajhala},
+         familyi={S\bibinitperiod},
+         given={Prashanth},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {researchgate.net}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PABHGASNRSGSSAVJNVSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{Online:
+  \url{https://www.researchgate.net/publication/353610724_Next_Generation_Sequencing};
+  letzter Zugriff: 11.01.2023}
+    \field{title}{Next Generation Sequencing}
+    \field{year}{2021}
+  \endentry
+
+  \entry{dnaReplicants}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RK}{%
+         family={Robasky},
+         familyi={R\bibinitperiod},
+         given={Kimberly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LNE}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Nathan\bibnamedelima E.},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CGM}{%
+         family={Church},
+         familyi={C\bibinitperiod},
+         given={George\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {NCBI}%
+    }
+    \strng{namehash}{RKLNECGM1}
+    \strng{fullhash}{RKLNECGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{Online:
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103745}; letzter Zugriff:
+  11.01.2023}
+    \field{title}{The Role of Replicates for Error Mitigation in
+  Next-Generation Sequencing}
+    \field{year}{2013}
+  \endentry
+
+  \entry{PPO}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SJ}{%
+         family={Schulman},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wolski},
+         familyi={W\bibinitperiod},
+         given={Filip},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dhariwal},
+         familyi={D\bibinitperiod},
+         given={Prafulla},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radford},
+         familyi={R\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Klimov},
+         familyi={K\bibinitperiod},
+         given={Oleg},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Machine Learning (cs.LG), FOS: Computer and information sciences,
+  FOS: Computer and information sciences}
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJWFDPRAKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.48550/ARXIV.1707.06347
+    \endverb
+    \field{title}{Proximal Policy Optimization Algorithms}
+    \verb{url}
+    \verb https://arxiv.org/abs/1707.06347
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{dnalinguistic}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SDB}{%
+         family={Searls},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Scientist}%
+    }
+    \strng{namehash}{SDB1}
+    \strng{fullhash}{SDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Online: \url{https://www.jstor.org/stable/29774782}; letzter
+  Zugriff: 11.01.2023}
+    \field{title}{The Linguistics of DNA}
+    \field{year}{1992}
+  \endentry
+
+  \entry{NLPfundamentals}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SGDG}{%
+         family={Sohom\bibnamedelima Ghosh},
+         familyi={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Dwight\bibnamedelima Gunning},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Packt Publishing}%
+    }
+    \strng{namehash}{SGDG1}
+    \strng{fullhash}{SGDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Online:
+  \url{https://learning.oreilly.com/library/view/natural-language-processing/9781789954043/};
+  letzter Zugriff: 01.02.2023}
+    \field{title}{Natural Language Processing Fundamentals}
+    \field{year}{2019}
+  \endentry
+
+  \entry{transformer}{article}{}
+    \name{author}{8}{}{%
+      {{hash=VA}{%
+         family={Vaswani},
+         familyi={V\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shazeer},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Parmar},
+         familyi={P\bibinitperiod},
+         given={Niki},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Uszkoreit},
+         familyi={U\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Llion},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GAN}{%
+         family={Gomez},
+         familyi={G\bibinitperiod},
+         given={Aidan\bibnamedelima N.},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Polosukhin},
+         familyi={P\bibinitperiod},
+         given={Illia},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Arxiv.org}%
+    }
+    \strng{namehash}{VA+1}
+    \strng{fullhash}{VASNPNUJJLGANKLPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{note}{Online: \url{https://arxiv.org/abs/1706.03762}; letzter
+  Zugriff: 14.12.2022}
+    \field{title}{Attention Is All You Need}
+    \field{year}{2017}
+  \endentry
+
+  \entry{chinaDNAprivacy}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WSL}{%
+         family={Wee},
+         familyi={W\bibinitperiod},
+         given={Sui-Lee},
+         giveni={S\bibinithyphendelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {New York Times}%
+    }
+    \strng{namehash}{WSL1}
+    \strng{fullhash}{WSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{note}{Online:
+  \url{https://www.nytimes.com/2019/02/21/business/china-xinjiang-uighur-dna-thermo-fisher.html};
+  letzter Zugriff: 01.02.2023}
+    \field{title}{China Uses DNA to Track Its People, With the Help of American
+  Expertise}
+    \field{year}{2019}
+  \endentry
+
+  \entry{RLStock}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YH}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Hongyang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LXY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xiao-Yang},
+         giveni={X\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Shan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Walid},
+         familyi={W\bibinitperiod},
+         given={Anwar},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ssrn.com}%
+    }
+    \strng{namehash}{YH+1}
+    \strng{fullhash}{YHLXYZSWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{note}{Online:
+  \url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996}; letzter
+  Zugriff: 14.01.2023}
+    \field{title}{Deep Reinforcement Learning for Automated Stock Trading: An
+  Ensemble Strategy}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput
