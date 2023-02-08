@@ -12,3 +12,5 @@ DNA_RL/utilities/DNABERT/src/transformers/__pycache__
 DNA_RL/utilities/DNABERT/src/transformers.egg-info
 DNA_RL/models/*
 *.fa
+dna-rl-thesis-fvogt/*
+determined/*
