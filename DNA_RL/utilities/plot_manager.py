@@ -55,13 +55,16 @@ class PlotManager:
         error_rate = plot_data[0]
         action_rate = plot_data[1]
         no_of_errors_corrected = plot_data[2]
-        no_of_errors_missed = plot_data[3]
-        no_of_errors_made = plot_data[4]
-        no_of_corrects_found = plot_data[5]
+        no_of_errors_found = plot_data[3]
+        no_of_errors_missed = plot_data[4]
+        no_of_errors_made = plot_data[5]
+        no_of_corrects_found = plot_data[6]
 
         self.error_rate_history.append(error_rate)
         self.action_rate_history.append(action_rate)
+
         self.errors_corrected_history.append(no_of_errors_corrected)
+        self.errors_found_history.append(no_of_errors_found)
         self.errors_missed_history.append(no_of_errors_missed)
         self.errors_made_history.append(no_of_errors_made)
         self.corrects_found_history.append(no_of_corrects_found)
