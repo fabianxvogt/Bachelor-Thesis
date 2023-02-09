@@ -77,16 +77,16 @@ DNA_PATH = BASE_PATH + "seq1.txt"
 print(MODEL_PATH)
 
 
-def train(model, env, no_of_steps, make_plot = False):
+def train(model, env, no_of_steps, make_plot = True):
     if make_plot:
         plot_man = PlotManager()
         plot_man.load_historical_plot_data(MODEL_PATH + "_hist.npy")
         env.set_plot_data(
-            plot_man.errors_corrected_history[-1], 
-            plot_man.errors_found_history[-1], 
-            plot_man.errors_missed_history[-1], 
-            plot_man.errors_made_history[-1], 
-            plot_man.corrects_found_history[-1]
+            (plot_man.errors_corrected_history or [0])[-1], 
+            (plot_man.errors_found_history     or [0])[-1], 
+            (plot_man.errors_missed_history    or [0])[-1], 
+            (plot_man.errors_made_history      or [0])[-1], 
+            (plot_man.corrects_found_history   or [0])[-1]
         )
 
     for counter in range(0,no_of_steps):
