@@ -3,12 +3,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Vereinfachter Prozessablauf\relax }}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces M^^c3^^b6gliche Entscheidungen\relax }}{27}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Wahrscheinlichkeiten f^^c3^^bcr verschiedene Fehlerraten (untrainiertes Modell)\relax }}{28}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Statische Belohnung anhand der Fehlerrate (untrainiertes Modell)\relax }}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Vereinfachter Prozessablauf\relax }}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces M^^c3^^b6gliche Entscheidungen\relax }}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Wahrscheinlichkeiten f^^c3^^bcr verschiedene Fehlerraten (untrainiertes Modell)\relax }}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Statische Belohnung anhand der Fehlerrate (untrainiertes Modell)\relax }}{27}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Implementierung der Gym-Environments\relax }}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Implementierung der Gym-Environments\relax }}{37}{figure.caption.40}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -65,6 +65,8 @@
 \usepackage{xcolor}
 
 \usepackage{lmodern}
+\usepackage{acronym}
+
 \definecolor{mygreen}{rgb}{0,0.6,0}
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
 \definecolor{mymauve}{rgb}{0.58,0,0.82}
@@ -168,21 +170,8 @@ Eingereicht von Fabian Vogt
 
 \end{center}
 \end{titlepage}
-\newpage    % Seitenwechsel
+\newpage    
 
-\thispagestyle{empty}       % keine Seitennummer
-% vertikaler Leerraum
-\vspace*{2.2cm}
-\noindent %kein Einzug
-{\Huge Danksagung}\\
-\vspace*{1.6cm} \\
-
-% Kopfzeilen (automatisch erzeugt)
-%\pagestyle{headings}
-[Text der Danksagung]
-
-% Seite mit Abstracts
-\newpage
 \thispagestyle{empty}    
 
 \section*{Abstract}
@@ -221,26 +210,19 @@ untersucht, bewertet und mit anderen Methoden des Maschinellen Lernens vergliche
 
 \tableofcontents  
 
-
-%Seite 
-
  \listoffigures
  
- %Seite 6
-
- \listoftables
  
 
 
  \lstlistoflistings
 
-.
 
 \newpage
 
 \pagenumbering{arabic}  % Nummerierung der Seiten in 'arabisch' % neues Kapitel mit Namen "Introduction"
- %Seite 1
- % \setcounter{page}{1}   % setzt Seitenzaehlung auf 1
+%Seite 1
+\setcounter{page}{1}   % setzt Seitenzaehlung auf 1
 
 
 \chapter{Einleitung}
@@ -258,7 +240,8 @@ Wenn aus einem fehlerhaften DNA-Read jedoch eine Fehldiagnose entsteht, können 
 
 Daher ist es wichtig, dass Sequenzierungsfehler korrigiert werden. 
 Entweder muss ein Fehler direkt korrigierbar sein, oder er muss wenigstens erkannt werden, 
-sodass der fehlerhafte Teil der Sequenz noch einmal eingelesen werden kann. 
+sodass der fehlerhafte Teil der Sequenz noch einmal eingelesen werden kann. \\
+\linebreak[4]
 
 
 \section{Problem- und Zielstellung (Scope)}
@@ -276,8 +259,8 @@ welches als abstrakter Vektor in den Hidden-States des Models kodiert ist.
 DNABERT verarbeitet die Sequenz Base für Base, somit wird für jede Base ein Hidden-State berechnet,
 welcher sowohl Informationen über die aktuelle Base als auch über den Rest der Sequenz enthält.
 Es ist die kodierte Repräsentation der jeweiligen Base im Kontext der Gesamtsequenz.
-In der Theorie könnte ein einziger Hidden-State bereits genug Informationen enthalten, 
-um entscheiden zu können ob dahinter eine fehlerhafte Base steckt.\\
+Ein einziger Hidden-State könnte bereits genug Informationen enthalten, 
+um entscheiden zu können, ob dahinter eine fehlerhafte Base steckt.\\
 
 
 Durch Verwendung der DNABERT-Hidden-States, anstelle einer simpleren, selbstgewählten Kodierung einzelner Basen, 
@@ -300,9 +283,8 @@ oder ob eine Basenweise Verarbeitung besser geeignet ist.\\
 
 Als Ergebnis sollen Testergebnisse für Modelle vorliegen, die in den genannten Umgebungen trainiert wurden.
 Außerdem soll eine Beurteilung entstehen, ob und wie weit sich ein Reinforcement-Learning-Ansatz 
-zur Lösung des Problems eignet.
-
-
+zur Lösung des Problems eignet.\\
+\linebreak[4]
 
 \section{Aufbau der Arbeit}
 
@@ -312,11 +294,13 @@ Zuerst wird ein Überblick über das Thema DNA-Sequenzierung gegeben.
 Was ist DNA-Sequenzierung und wofür wird es verwendet?
 Was sind die gängigsten Sequenzierungsverfahren?
 Wie können dabei Fehler entstehen?
-Was sind mögliche Ansätze, um Sequenzierungsfehler zu korrigieren?
+Was sind mögliche Ansätze, um Sequenzierungsfehler zu korrigieren?\\
+
 Außerdem wird erläutert, warum DNA einer Art von Sprache gleicht und 
 somit der Bezug zum Thema Natural Language Processing (NLP) hergestellt.
 Im folgenden werden das Transfomer- und das BERT-Model erläutert, welche eine wichtige Bedeutung 
-für den Bereich NLP haben.
+für den Bereich NLP haben.\\
+
 Zudem wird auch das DNABERT-Model vorgestellt, welches eine Weiterenticklung des BERT-Models ist 
 und als Grundlage für Fehlerkorrektur durch einen Reinforcement Learning Agenten gilt.
 Um den theoretischen Teil der Arbeit abzuschließen, werden das grundlegende Konzept des 
@@ -330,7 +314,8 @@ Außerdem wird erläutert, wie die Belohnung des RL-Agenten berechnet wird. \\
 
 Zum Schluss folgt ein Fazit, in dem bewertet wird, wie gut sich die Verwendung von Reinforcement-Learning 
 als Ansatz für die Fehlerkorrekturvon DNA-Sequenzen eignet. Diese Arbeit trägt somit zum Verständnis bei, ob und wie Reinforcement Learning angewendet werden kann um die Fehlerkorrektur in 
-DNA-Sequenzen zu verbessern und versucht somit eine höhere Genauigkeit in der Genomforschung zu erzielen.
+DNA-Sequenzen zu verbessern und versucht somit eine höhere Genauigkeit in der Genomforschung zu erzielen.\\
+\linebreak[4]
 
 
 \chapter{Theoretische Grundlagen}
@@ -343,6 +328,7 @@ DNA-Sequenzierung hat die medizinische Forschung grundlegend verändert und neue
 Die verwendeten Sequenzierungsverfahren wurden mit der Zeit optimiert und ihre Fehlerrate wurde stark reduziert. 
 Trotzdem werden auch bei aktuellen Sequenzierungsverfahren (NGS) noch Fehler produziert. 
 Es ist wichtig, dass diese Fehler erkannt bzw. korrigiert werden.\\
+\linebreak[4]
 
 \subsection{Domain} 
 
@@ -357,7 +343,8 @@ Die kodierte Sequenz wird anschließend mit Hilfe eines Reinforcement Learning A
 
 
 Insgesamt fällt das Projekt damit in die Domain Machine Learning, bzw. spezieller Reinforcement Learning und NLP angewandt 
-auf die Korrektur von DNA-Sequenzen beziehungsweise der Klassifikation von Fehlerhaften Basen einer DNA-Sequenz.
+auf die Korrektur von DNA-Sequenzen beziehungsweise der Klassifikation von Fehlerhaften Basen einer DNA-Sequenz.\\
+\linebreak[4]
 
 
 \subsection{Technologien}
@@ -387,7 +374,8 @@ Es wird verwendet, um die Eingabe-DNA-Sequenzen in eine verarbeitbare Form für 
 Diese Technologien werden in Kombination verwendet, um Lesefehler in DNA-Sequenzen zu erkennen und zu korrigieren 
 und dadurch die Genauigkeit von DNA-Sequenzierungsergebnissen zu verbessern. \\
 
-Desweiteren werden Pyplots zur Visualisierung und Beurteilung der Ergebnisse genutzt.
+Desweiteren werden Pyplots zur Visualisierung und Beurteilung der Ergebnisse genutzt. \\ 
+\linebreak[4]
 
 
 \subsection{Methoden und Konzepte}
@@ -415,7 +403,8 @@ sodass diese Werte für eine spätere Visualisierung der Performance des Modells
 
 
 Für das genaue Verständnis des Problems und der Lösungsansätze, 
-werden zunächst die theoretischen Hintergründe erläutert und ein Bezug zwischen DNA-Sequenzierung und maschineller Sprachverarbeitung hergestellt.
+werden zunächst die theoretischen Hintergründe erläutert und ein Bezug zwischen DNA-Sequenzierung und maschineller Sprachverarbeitung hergestellt. \\
+\linebreak[4]
 
 \section{DNA-Sequenzierung}
 
@@ -444,7 +433,8 @@ der DNA-Isolierung oder während des Sequenzierungsprozesses auftreten können,
 nicht immer einfach. 
 Fehlerquellen können zum Beispiel Verunreinigungen, nicht vollständig entfernte Enzyme oder chemische Reaktionen sein. 
 Eine Möglichkeit diese Fehler zu minimieren, ist die Erstellung mehrerer Sequenzen von derselben DNA-Probe, 
-was einen späteren Vergleich ermöglicht \autocite{dnaReplicants}.
+was einen späteren Vergleich ermöglicht \autocite{dnaReplicants}. \\
+\linebreak[4]
 
 
 \subsection{Sanger}
@@ -477,6 +467,7 @@ Ergebnissen anderer Sequenzierungsmethoden, wie NGS.
 Es ist jedoch langsam und erfordert große Mengen an Probenmaterial. 
 Auch ist es nicht geeignet für die Sequenzierung von ganzen Genomen. 
 Moderne Methoden wie Next Generation Sequencing ermöglichen es jedoch, große Mengen an DNA schneller und mit weniger Material zu sequenzieren. \\
+\linebreak[4]
 
 
 \subsection{Next Generation Sequencing}
@@ -507,6 +498,7 @@ wird aber häufig für die Analyse von genomischen Regionen statt von gesamten G
 Der wesentliche Unterschied zwischen dem Sanger-Verfahren und NGS ist die Parallelisierbarkeit. 
 Während beim Sanger Verfahren nur ein einzelnes DNA-Fragment sequenziert werden kann, 
 können beim NGS Millionen von Fragmenten gleichzeitig sequenziert werden.  \\
+\linebreak[4]
 
 
 \subsection{Entstehung von Fehlern}
@@ -539,7 +531,8 @@ kann es zu Fehlern in der Analyse kommen, die sich auf die Genauigkeit der Seque
 
 
 Um diese Fehler zu minimieren, werden in der Regel mehrere Sequenzen von derselben DNA-Probe erstellt und miteinander verglichen, 
-um sicherzustellen, dass die ursprüngliche DNA-Sequenz korrekt bestimmt wurde.
+um sicherzustellen, dass die ursprüngliche DNA-Sequenz korrekt bestimmt wurde.\\
+\linebreak[4]
 
 
 \subsection{Korrekturansätze}
@@ -556,6 +549,7 @@ Eine weitere Möglichkeit Sequenzierungsfehler zu erkennen
 besteht darin, die Sequenz mit bekannten Referenz-DNA-Sequenzen zu vergleichen.
 Wenn es Unterschiede zwischen der eingelesenen Sequenz und der Referenzsequenz gibt, 
 könnte dies darauf hinweisen, dass Fehler beim Sequenzieren aufgetreten sind. \\
+\linebreak[4]
 
 
 \section{Sprache der DNA}
@@ -575,9 +569,9 @@ Beziehungen zwischen Wörtern zu verstehen und die feinen Unterschiede zu erkenn
 
 Aufgrund der sprachlichen Eigenschaften der DNA, können für die maschinelle Verarbeitung und das Verständnis
 einer DNA-Sequenz ähnliche Werkzeuge eigesetzt werden, wie für die Verarbeitung von natürlicher Sprache (NLP).
-Ein Sprachmodell wie der Transformer kann auf das Verständnis der DNA-Syntax trainiert werden.
+Ein Sprachmodell wie der Transformer kann auf das Verständnis der DNA-Syntax trainiert werden. \\
+\linebreak[4]
 
-\newpage
 
 \section{Machine Learning für DNA}
 
@@ -632,6 +626,7 @@ Eine DNA-Sequenz weißt ähnliche Eigenschaften auf. In den folgenden Kapiteln w
 NLP-Modelle vorgestellt, die unter anderem auf einem großen Datensatz von DNA-Sequenzen 
 trainiert wurden und somit den Zusammenhang zwischen Natural Language Processing und der
 Verarbeitung von DNA praktisch verdeutlichen. \\
+\linebreak[4]
 
 
 \subsection{Transformer}
@@ -691,7 +686,6 @@ Transformer-Modell auch eine geringere Anfälligkeit für Overfitting gezeigt,
 im Vergleich zu früheren Architekturen. \\
 
 
-
 \subsubsection{Overfitting}
 
 Overfitting tritt auf, wenn ein Modell zu sehr an die Trainingsdaten angepasst wird und daraufhin seine Leistung auf neuen, 
@@ -704,6 +698,7 @@ und somit weniger anfällig für Overfitting ist \autocite[Seite 9]{transformer}
 Das Transformer-Modell hat wichtige Fortschritte in der natürlichen Sprachverarbeitung gebracht 
 und hat sich als leistungsfähige Architektur für die Verarbeitung von Natürlicher Sprache und sequentiellen Daten erwiesen. 
 Es bleibt abzuwarten, wie sich das Modell in Zukunft weiterentwickeln wird und in welchen Anwendungsbereichen es eingesetzt wird. \\
+\linebreak[4]
 
 
 \subsection{BERT}
@@ -742,6 +737,7 @@ und durch seine Möglichkeit des Transfer-Lernens
 zu verbesserten Leistungen bei vielen NLP-Aufgaben beigetragen. 
 Es hat sich als leistungsfähiges Modell für Aufgaben wie Sentiment Analysis, 
 Sprachübersetzung und Fragebeantwortung erwiesen und hat in vielen Fällen state-of-the-art Leistungen erzielt. \\
+\linebreak[4]
 
 
 \subsection{DNABERT}
@@ -775,6 +771,7 @@ Das Modell stellt ein wertvolles Werkzeug für die biologische Forschung dar,
 weil es die Analyse von genetischen Daten erleichtern und die Entdeckung von neuen therapeutischen Ansätzen unterstützen kann. 
 Es gibt auch eine Erwähnung von möglichen Anwendungen in Bereichen wie der Personalisierte Medizin, 
 die auf die genetischen Merkmale einer Person zugeschnitten sind. \\
+\linebreak[4]
 
 \clearpage
 
@@ -839,6 +836,7 @@ RL kann in vielen verschiedenen Bereichen sinnvoll eingesetzt werden, darunter d
 die Optimierung von Logistikprozessen und die Entscheidungsfindung in Computerspielen \autocite[Seite 1]{deepRL}. 
 Es wird auch in der Finanzindustrie, in der Medizintechnik und in anderen Bereichen eingesetzt, 
 in denen Entscheidungen getroffen werden müssen, ohne dass alle Informationen vorab bekannt sind. \\
+\linebreak[4]
 
 
 \subsection{Bekannte Anwendungsbeispiele}
@@ -872,6 +870,7 @@ tatsächlichen Glukosewert und dem Zielwert berechnet.\\
 
 Reinforcement-Learning ist eine Methode, die sich für ein breites Spektrum von
 Aufgaben eignet, in erster Linie in Umgebungen mit imperfektem Informationsgehalt. 
+\linebreak[4]
 
 
 \subsection{Anwendung zur DNA-Fehlererkennung}
@@ -908,6 +907,7 @@ weitere Forschung erfordert, um die Effektivität des Ansatzes zu beurteilen.
 Es gibt auch mögliche Herausforderungen wie die Auswahl des RL-Algorithmus und die Definition der Belohnungsfunktion, 
 die es zu lösen gilt. 
 Es kann auch notwendig sein, die Verarbeitungszeit zu optimieren, um sicherzustellen, dass der Ansatz in der Praxis anwendbar ist. \\
+\linebreak[4]
 
 
 \subsection{DNA-Korrektur Environment}
@@ -930,11 +930,13 @@ Der RL-Agent kann dann in der Umgebung trainiert werden, indem er für einzelne 
 und die Belohnungen erhält, die anhand der Belohnungsfunktion für die Korrekturaktion berechnet wurden. 
 Der Agent lernt dadurch, welche Aktionen am wahrscheinlichsten zu einer hohen Belohnung führen.
 Die Belohnung ist dabei am höchsten, wenn die Sequenz keine Fehler mehr enthält oder alle Fehler entdeckt wurden. \\
+\linebreak[4]
 
 \subsection{Agentenmodelle}
 
 Im Rahmen dieser Arbeit werden verschiedene Arten von Reinforcement-Learning-Agenten
 für die Korrektur von Sequenzierungsfehlern getestet. Dazu zählen: \\
+\linebreak[4]
 
 \subsubsection{Deep Q-Network (DQN)}
 Das Paper "Playing Atari with Deep Reinforcement Learning" von 
@@ -955,7 +957,8 @@ Das Paper "Playing Atari with Deep Reinforcement Learning" von
   Die Erfahrungen des DQN-Agenten werden in einem Replay-Memory-Buffer gespeichert und 
   zur Optimierung des Deep Neural Network genutzt. 
   Indem zufällig ausgewählte Erfahrungen aus dem Replay-Buffer verwendet werden, um das Deep Neural Network zu aktualisieren,
-  wird die Lernkurve geglättet und Schwankungen in den Parametern des Modells werden reduziert \autocite[Seite 5]{DQN}.
+  wird die Lernkurve geglättet und Schwankungen in den Parametern des Modells werden reduziert \autocite[Seite 5]{DQN}.\\
+  \linebreak[4]
  
 \subsubsection{Advantage Actor-Critic (A2C)} 
 Die Funktionsweise des A2C-Algorithmus wurde von Mnih et al. im Paper 
@@ -979,7 +982,8 @@ Die Funktionsweise des A2C-Algorithmus wurde von Mnih et al. im Paper
   
   Durch die Verwendung von mehreren parallelen Agenten und einer asynchronen 
   Update-Strategie kann das A2C-Verfahren schneller und robusterer trainiert 
-  werden als andere Reinforcement Learning-Methoden \autocite[Seite 3]{A2C}. 
+  werden als andere Reinforcement Learning-Methoden \autocite[Seite 3]{A2C}. \\
+  \linebreak[4]
 
 \subsubsection{Proximal Policy Optimization (PPO)}
 
@@ -995,7 +999,8 @@ PPO wurde von Schulman et al. im Paper "Proximal Policy Optimization Algorithms"
   
   Außerdem verwendet PPO eine Technik namens minibatch SGD, um die Objective-Function zu optimieren. 
   Hierbei werden kleine Stichproben von Erfahrungen aus dem Erinnerungs-Buffer verwendet, 
-  um die Gradienten für die Policy-Optimierung zu berechnen.
+  um die Gradienten für die Policy-Optimierung zu berechnen.\\
+  \linebreak[4]
   
 
 \subsection{Unterschiedliche Ansätze bei der Korrektur}
@@ -1030,6 +1035,7 @@ der Korrektur des Fehlers unterschieden werden. Es wird erwartet, dass die Korre
 schwieriger zu trainieren ist, als die bloße Erkennung. Es besteht außerdem die Möglichkeit,
 dass der Agent die Sequenz nicht selbstständig korrigieren muss, sondern dafür die Maskierungsfunktion
 des DNABERT nutzen kann. \\
+\linebreak[4]
 
 \clearpage
 
@@ -1045,6 +1051,7 @@ wird eine separate Funktion benötigt. \\
 Die Entwurf und die Umsetzung des Reinforcement-Learning findet in einem iterativen Prozess statt.
 Zu Beginn ist unklar, welcher von vielen möglichen Ansätzen am besten geeignet ist, daher wird schnell
 damit begonnen Ideen auszutesten. \\
+\linebreak[4]
 
 \section{Ergebnisartefakte}
 Nach Beendigung des Projekts sollen folgende Ergebnisartefakte entstanden sein: \\
@@ -1224,7 +1231,6 @@ Dies wird in folgender Grafik \ref{TPFN} verdeutlicht:
   \end{figure}
 %
 
-\newpage
 
 \section{Erwartungswerte}
 
@@ -1264,7 +1270,7 @@ die Gesamtanzahl an verarbeiteten Basen.
 Anhand der Wahrscheinlichkeiten ließen sich nun statische Belohnungen für den Agenten berechnen.
 Dabei geht die Summe der Belohnungen multipliziert mit den Wahrscheinlichkeiten immer gegen 0.\\
 
-Beispiel ref{basicRewards} für Fehlerrate = 0.1:
+Beispiel \ref{basicRewards} für Fehlerrate = 0.1:
 
 \begin{figure}[h]
   \centering
@@ -1278,7 +1284,7 @@ also Basen ohne Fehler die als korrekt erkannt wurden, immer der Basisbelohnung 
 Anhand der Wahrscheinlichkeiten können dann die anderen Belohnungen berechnet werden:\\
 \linebreak[4]
 
-\begin{figure}
+\begin{figure}[h]
 \begin{align*}
   B &= 10 \\
   B_{TN} &= B & = \phantom{-} 10 \\
@@ -1347,7 +1353,7 @@ Korrekturrate etwa 50\% betragen und mit besserer Performance des Models langsam
 Mit nahezu perfekter Performance, also eine Erkennung aller Fehler ohne neue Fehler zu produzieren,
 sollte sich die Korrekturrate der Fehlerrate angleichen.\\
 
-\begin{figure}
+\begin{figure}[h]
   \begin{align*}
     k_{TP} &= c_{TP} / c_{P} \\
     k_{desired} &= 0.1 + (1 - k_{TP} ) / 2 \\
@@ -1365,7 +1371,6 @@ sollte sich die Korrekturrate der Fehlerrate angleichen.\\
   \end{conditions}
   
   \end{figure}
-  \leavevmode \\
 
 Die Belohnungen für fehlerhafte Basen werden mit dem Gewichtungsfaktor g multipliziert.
 
@@ -1373,8 +1378,8 @@ Die Belohnungen für fehlerhafte Basen werden mit dem Gewichtungsfaktor g multip
 
 \subsection{Basenweise Verarbeitung}
 Bei der basenweisen Verarbeitung der DNA-Sequenz wird jede Base, zusammen mit ihrem zugehörigen BERT-Vektor, 
-einzeln in das Model gefüttert.
-Der aktuelle State des Agenten entspricht dabei immer dem BERT-Vektor der aktuell zu korrigierenden Base. 
+einzeln in das Model gegeben.
+Der aktuelle State des Agenten entspricht dabei immer dem BERT-Vektor der aktuellen Base. 
 Auf diese Weise wird der State kleingehalten. Ist der State des Agenten zu groß, kann es schwierig werden, 
 den Agenten erfolgreich zu trainieren. Ein großer State erfordert mehr Speicher und Rechenleistung, 
 um den State zu verarbeiten und eine Aktion auszuwählen. 
@@ -1402,6 +1407,8 @@ die Base erneut anhand des neuen DNABERT-States zu beurteilen.
 Die tatsächliche Korrektur einer Base findet somit im DNABERT-Model statt, da fehlerhafte
 Basen einfach als maskiert behandelt werden.\\
 
+\newpage
+
 \subsubsection{1. Ansatz: Korrektur durch Agent}
 Soll die Korrektur rein beim Agenten erfolgen, so muss der Agent nicht nur aus zwei Aktionen 
 auswählen können (Fehler / kein Fehler) sondern aus mindestens vier Aktionen. 
@@ -1420,20 +1427,23 @@ Er kann nicht auf eine Standardaktion für fehlerfreie Basen zurückgreifen, son
 Das kann sowohl als Vorteil und Nachteil angesehen werden: 
 Der Agent lernt, zusätzlich dazu fehlerhafte Basen zu korrigieren,
 auch fehlerfreie BERT-Vektoren den richtigen Basen zuzuordnen.
-Die Aufgabe wird dadurch komplexer, was die Trainingszeit verlängern könnte, allerdings könnten die Korrekturentscheidungen
+Die Aufgabe wird dadurch komplexer, was die Trainingszeit verlängern könnte, und möglicherweise nicht für den Agenten lösbar.
+Allerdings könnten die Korrekturentscheidungen
 am Ende des Trainings auch genauer sein, da ein tieferes Verständnis von den DNA-Fehlern bzw. deren Encoding in BERT-Hidden-States erlangt wurde.\\
 
-2. Eine andere Möglichkeit ist, die Aktion auf eine Verschiebung der Basen zu beziehen. 
+Eine andere Möglichkeit ist, die Aktion auf eine Verschiebung der Basen zu beziehen. 
 Damit ist eine Verschiebung des Indexes der Base gemeint, in einer Liste aller Basen:\\
 
-Index: [0, 1, 2, 3]
+Index: [0, 1, 2, 3]\\
 Basen: [A, T, G, C]\\
 
 Jeder Base wird ein Index zugewiesen. Die Aktion des Agenten entspricht der Anzahl an Schritten, die auf den aktuellen Basenindex
 addiert werden. Wird der Index zu weit nach rechts verschoben, so wird zurückgesprungen zum Index 0. 
 Dafür wird der Modulo der Indexsumme (Aktueller Index + Verschiebung) gezogen:\\
 
-\begin{figure}
+\newpage
+
+\begin{figure}[h]
 \begin{align*}
 i_{new} = (i + s)\mod 4\\
 \end{align*}
@@ -1473,7 +1483,9 @@ Dadurch können vorherige Entscheidungen erneut beurteilt werden.\\
   \item Aktion 2: Maskierung der aktuellen Base, Berechnung der neuen DNABERT-States, Index bleibt gleich
 \end{itemize}
 
-
+Durch die Fähigkeit, die neu-generierten DNABERT-States ein weiteres Mal zu betrachten,
+können vorherige Korrekturen angepasst oder rückgängig gemacht werden und 
+verpasste fehlerhafte Basen können nachträglich noch korrigiert werden.
 
 \subsection{Sequenzweise Verarbeitung}
 Bei der Sequenzweisen-Verarbeitung soll in jeder Iteration die gesamte Sequenz vearbeitet werden.
@@ -1616,7 +1628,7 @@ Um die verschiedenen Ansätze der Fehlererkennung und -korrektur zu implementier
 
 Um die genauen Unterschiede zwischen den Ansätzen klar hervorzubringen, wurden die Umgebungen durch eine Vererbungshierarchie umgesetzt:
 
-\begin{figure}[t!]
+\begin{figure}[h]
   \centering
   \includegraphics[width=400px,keepaspectratio]{images/classes.png}
   \caption{Implementierung der Gym-Environments}
@@ -1710,7 +1722,24 @@ title={Bibliography}
 
 \newpage
 
-%\chapter{Abkürzungsverzeichnis}
+\chapter{Abkürzungsverzeichnis}
+\begin{acronym}
+
+  \acro{DNA}[DNA]{Desoxyribonukleinsäure}
+  \acro{ML}[ML]{Machine Learning}
+  \acro{RL}[RL]{Reinforcement Learning}
+  \acro{DQN}[DQN]{Deep Q-Network}
+  \acro{A2C}[A2C]{Advantage Actor-Critic}
+  \acro{PPO}[PPO]{Proximal Policy Optimization}
+  \acro{BERT}[BERT]{Bidirectional Encoder Representations from Transformers}
+  \acro{NGS}[NGS]{Next Generation Sequencing}
+  \acro{NLP}[NGS]{Natural Language Processing}
+  \acro{NLU}[NLU]{Natural Language Understanding}
+  \acro{NLG}[NLG]{Natural Language Generation}
+  \acro{ASR}[ASR]{Automatic Speech Recognition}
+  \acro{TTS}[TTS]{Text-to-Speech}
+  
+\end{acronym}
 %\newpage
 %\chapter{Glossar}
 

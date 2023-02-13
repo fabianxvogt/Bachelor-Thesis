@@ -998,6 +998,40 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.st
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty
+INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xstring/xstring.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
@@ -1083,7 +1117,6 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /Users/I570101/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmss.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmss.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmss.fd
@@ -1148,10 +1181,6 @@ INPUT ./thesis.lof
 INPUT thesis.lof
 INPUT thesis.lof
 OUTPUT thesis.lof
-INPUT ./thesis.lot
-INPUT thesis.lot
-INPUT thesis.lot
-OUTPUT thesis.lot
 INPUT ./thesis.lol
 INPUT thesis.lol
 INPUT thesis.lol
@@ -1221,9 +1250,9 @@ INPUT thesis.run.xml
 OUTPUT thesis.run.xml
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
@@ -1239,8 +1268,6 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/l
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr17.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr17.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb

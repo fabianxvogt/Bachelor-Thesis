@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.1.29)  13 FEB 2023 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.1.29)  13 FEB 2023 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,65 +847,76 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/pplx/b/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xstring/xstring.tex
+\integerpart=\count465
+\decimalpart=\count466
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+)
+\AC@clearlist=\toks39
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 113.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 115.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-Package scrbase Info: activating english \partname on input line 113.
-Package scrbase Info: activating english \chaptername on input line 113.
-Package scrbase Info: activating english \appendixname on input line 113.
-Package scrbase Info: activating english \figurename on input line 113.
-Package scrbase Info: activating english \tablename on input line 113.
-Package scrbase Info: activating english \contentsname on input line 113.
-Package scrbase Info: activating english \listfigurename on input line 113.
-Package scrbase Info: activating english \listtablename on input line 113.
-Package scrbase Info: activating english \bibname on input line 113.
-Package scrbase Info: activating english \indexname on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+Package scrbase Info: activating english \partname on input line 115.
+Package scrbase Info: activating english \chaptername on input line 115.
+Package scrbase Info: activating english \appendixname on input line 115.
+Package scrbase Info: activating english \figurename on input line 115.
+Package scrbase Info: activating english \tablename on input line 115.
+Package scrbase Info: activating english \contentsname on input line 115.
+Package scrbase Info: activating english \listfigurename on input line 115.
+Package scrbase Info: activating english \listtablename on input line 115.
+Package scrbase Info: activating english \bibname on input line 115.
+Package scrbase Info: activating english \indexname on input line 115.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count465
+\scratchcounter=\count467
 \scratchdimen=\dimen268
 \scratchbox=\box64
-\nofMPsegments=\count466
-\nofMParguments=\count467
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count468
+\nofMPsegments=\count468
+\nofMParguments=\count469
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count470
 \MPscratchDim=\dimen269
-\MPnumerator=\count469
-\makeMPintoPDFobject=\count470
-\everyMPtoPDFconversion=\toks40
+\MPnumerator=\count471
+\makeMPintoPDFobject=\count472
+\everyMPtoPDFconversion=\toks41
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 113.
+Package hyperref Info: Link coloring OFF on input line 115.
  (thesis.out) (thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -917,12 +928,12 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 113.
+(scrbook)           before \begin{document} on input line 115.
  (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/Users/I570101/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count471
+\BKM@id=\count473
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -940,20 +951,20 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 113.
-Package biblatex Info: Reference segment=0 on input line 113.
-LaTeX Info: Redefining \microtypecontext on input line 113.
-Package microtype Info: Applying patch `item' on input line 113.
-Package microtype Info: Applying patch `toc' on input line 113.
-Package microtype Info: Applying patch `eqnum' on input line 113.
-Package microtype Info: Applying patch `footnote' on input line 113.
+Package biblatex Info: Reference section=0 on input line 115.
+Package biblatex Info: Reference segment=0 on input line 115.
+LaTeX Info: Redefining \microtypecontext on input line 115.
+Package microtype Info: Applying patch `item' on input line 115.
+Package microtype Info: Applying patch `toc' on input line 115.
+Package microtype Info: Applying patch `eqnum' on input line 115.
+Package microtype Info: Applying patch `footnote' on input line 115.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 113.
+LaTeX Info: Redefining \showhyphens on input line 115.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -998,23 +1009,18 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count472
+\c@lstlisting=\count474
 <images/HTW_Berlin_Logo_farbig.jpg, id=3, 114.9093pt x 68.4156pt>
 File: images/HTW_Berlin_Logo_farbig.jpg Graphic file (type jpg)
 <use images/HTW_Berlin_Logo_farbig.jpg>
-Package pdftex.def Info: images/HTW_Berlin_Logo_farbig.jpg  used on input line 118.
+Package pdftex.def Info: images/HTW_Berlin_Logo_farbig.jpg  used on input line 120.
 (pdftex.def)             Requested size: 114.90901pt x 68.41542pt.
 [1
 
 
 
 {/Users/I570101/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/HTW_Berlin_Logo_farbig.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-
- []
-
-[2]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 188.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 177.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1023,22 +1029,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--201
+Underfull \hbox (badness 10000) in paragraph at lines 184--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
-[3]
-Package tocbasic Info: character protrusion at toc deactivated on input line 222.
+[2]
+Package tocbasic Info: character protrusion at toc deactivated on input line 211.
  (thesis.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
@@ -1097,19 +1103,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout5 = `thesis.toc'.
 
  [2]
-Package tocbasic Info: character protrusion at lof deactivated on input line 227.
+Package tocbasic Info: character protrusion at lof deactivated on input line 213.
  (thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
-
- [3
-
-
-]
-Package tocbasic Info: character protrusion at lot deactivated on input line 231.
- (thesis.lot)
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
 
 
 
@@ -1123,16 +1120,21 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              Loading of package `scrhack' may help to
 (scrbook)              avoid this warning, if you are using a
 (scrbook)              a package that still implements the
-(scrbook)              deprecated \float@listhead interface on input line 235.
+(scrbook)              deprecated \float@listhead interface on input line 218.
 
-[4
+[3
 
 
-] (thesis.lol)
-\tf@lol=\write8
-\openout8 = `thesis.lol'.
+] (thesis.lol
+Overfull \hbox (3.71039pt too wide) detected at line 18
+ []\T1/lmr/m/n/10.95 VIII
+ []
 
- [5
+)
+\tf@lol=\write7
+\openout7 = `thesis.lol'.
+
+ [4
 
 
 ]
@@ -1153,27 +1155,37 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 230--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 248--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 254--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--290
+Underfull \hbox (badness 10000) in paragraph at lines 266--273
 
  []
 
@@ -1181,22 +1193,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--290
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.290 
+l.273 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 292--299
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--324
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--329
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
@@ -1204,31 +1236,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--329
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.334 
+l.313 
        [2]
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.336 \chapter
-              {Theoretische Grundlagen} [3]
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+[3]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--346
+Underfull \hbox (badness 10000) in paragraph at lines 325--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--357
+Underfull \hbox (badness 10000) in paragraph at lines 325--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
+Underfull \hbox (badness 10000) in paragraph at lines 335--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--375
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--362
 
  []
 
@@ -1236,107 +1288,167 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--375
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 376--380
+Underfull \hbox (badness 10000) in paragraph at lines 363--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--389
+Underfull \hbox (badness 10000) in paragraph at lines 369--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--397
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--404
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
+Underfull \hbox (badness 10000) in paragraph at lines 382--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--415
+Underfull \hbox (badness 10000) in paragraph at lines 387--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--403
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 423--428
+Underfull \hbox (badness 10000) in paragraph at lines 405--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--433
+Underfull \hbox (badness 10000) in paragraph at lines 405--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--440
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--456
+Underfull \hbox (badness 10000) in paragraph at lines 419--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--467
+Underfull \hbox (badness 10000) in paragraph at lines 424--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--473
+Underfull \hbox (badness 10000) in paragraph at lines 431--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--457
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 475--480
+Underfull \hbox (badness 10000) in paragraph at lines 459--463
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--489
+Underfull \hbox (badness 10000) in paragraph at lines 465--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--503
+Underfull \hbox (badness 10000) in paragraph at lines 465--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--510
+Underfull \hbox (badness 10000) in paragraph at lines 474--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--517
+Underfull \hbox (badness 10000) in paragraph at lines 482--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--502
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 519--523
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--529
+Underfull \hbox (badness 10000) in paragraph at lines 511--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--534
+Underfull \hbox (badness 10000) in paragraph at lines 517--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--539
+Underfull \hbox (badness 10000) in paragraph at lines 523--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--536
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--536
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 548--553
 
  []
 
@@ -1346,217 +1458,257 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--553
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--559
+Underfull \hbox (badness 10000) in paragraph at lines 558--568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--574
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 
  []
 
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 587--592
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 595.
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--586
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 589.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
+) [9]
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--621
+Underfull \hbox (badness 10000) in paragraph at lines 610--615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--629
+Underfull \hbox (badness 10000) in paragraph at lines 617--623
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--635
+Underfull \hbox (badness 10000) in paragraph at lines 625--630
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--630
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--643
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--654
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 640--648
+Underfull \hbox (badness 10000) in paragraph at lines 656--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--659
+Underfull \hbox (badness 10000) in paragraph at lines 677--680
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--667
+Underfull \hbox (badness 10000) in paragraph at lines 682--687
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 682--685
+Underfull \hbox (badness 10000) in paragraph at lines 691--696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--692
+Underfull \hbox (badness 10000) in paragraph at lines 698--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--702
+Underfull \hbox (badness 10000) in paragraph at lines 698--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--707
+Underfull \hbox (badness 10000) in paragraph at lines 707--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--715
+Underfull \hbox (badness 10000) in paragraph at lines 712--716
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--721
+Underfull \hbox (badness 10000) in paragraph at lines 718--722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--727
+Underfull \hbox (badness 10000) in paragraph at lines 724--733
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 729--738
+Underfull \hbox (badness 10000) in paragraph at lines 735--741
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--745
+Underfull \hbox (badness 10000) in paragraph at lines 735--741
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--754
+Underfull \hbox (badness 10000) in paragraph at lines 745--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--765
+Underfull \hbox (badness 10000) in paragraph at lines 752--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--772
+Underfull \hbox (badness 10000) in paragraph at lines 763--768
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 774--778
-
- []
-
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 784--789
+Underfull \hbox (badness 10000) in paragraph at lines 770--775
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--797
+Underfull \hbox (badness 10000) in paragraph at lines 770--775
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 781--786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--802
+Underfull \hbox (badness 10000) in paragraph at lines 788--794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--809
+Underfull \hbox (badness 10000) in paragraph at lines 796--799
 
  []
 
 
-Overfull \hbox (4.2533pt too wide) in paragraph at lines 811--815
+Underfull \hbox (badness 10000) in paragraph at lines 801--806
+
+ []
+
+
+Overfull \hbox (4.2533pt too wide) in paragraph at lines 808--812
 []\T1/lmr/m/n/10.95 (-20) Eine an-derer wesentlicher Be-standteil ist die "Value Func-tion", die an-gibt, wie wahrschein-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--815
+Underfull \hbox (badness 10000) in paragraph at lines 808--812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--821
+Underfull \hbox (badness 10000) in paragraph at lines 814--818
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--827
+Underfull \hbox (badness 10000) in paragraph at lines 820--824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--836
+Underfull \hbox (badness 10000) in paragraph at lines 826--833
 
  []
 
-[15
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 838--842
+Underfull \hbox (badness 10000) in paragraph at lines 835--840
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--849
+Underfull \hbox (badness 10000) in paragraph at lines 835--840
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 851--857
+Underfull \hbox (badness 10000) in paragraph at lines 845--847
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--864
+Underfull \hbox (badness 10000) in paragraph at lines 849--855
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 866--871
+Underfull \hbox (badness 10000) in paragraph at lines 857--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 882--889
+Underfull \hbox (badness 10000) in paragraph at lines 864--869
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--896
+Underfull \hbox (badness 10000) in paragraph at lines 871--874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 898--904
+Underfull \hbox (badness 10000) in paragraph at lines 877--879
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 906--911
+Underfull \hbox (badness 10000) in paragraph at lines 890--895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 897--903
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--911
 
  []
 
@@ -1565,164 +1717,214 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--920
 
  []
 
-
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 922--927
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 929--933
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--938
+Underfull \hbox (badness 10000) in paragraph at lines 929--934
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--940
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--940
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--962
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--962
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 983--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1004
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1004
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1018
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1031
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1009--1013
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1028--1033
-
- []
-
-[20]
 chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1055
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1055
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1063
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
 
  []
 
-[21
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1082
+
+ []
+
+[20
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1078
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1086
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1093
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1099
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1103
 
  []
 
-[22]
+[21]
 chapter 4.
-[23
+[22
 
 
 
-] [24]
+] [23]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1153
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1170
 
  []
 
-<images/Process_simplified.png, id=366, 1085.05376pt x 356.33125pt>
+<images/Process_simplified.png, id=354, 1085.05376pt x 356.33125pt>
 File: images/Process_simplified.png Graphic file (type png)
 <use images/Process_simplified.png>
-Package pdftex.def Info: images/Process_simplified.png  used on input line 1166.
+Package pdftex.def Info: images/Process_simplified.png  used on input line 1173.
 (pdftex.def)             Requested size: 401.50146pt x 131.85136pt.
-[25
+[24
 
 
  <./images/Process_simplified.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1177
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1186
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
 \T1/lmr/m/n/10.95 (+20) zu finden unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1199.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1206.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1731,209 +1933,226 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
 [][]$\T1/lmtt/m/n/10.95 https : / / github . com / fabianxvogt / Bachelor -[] Thesis / tree / main / DNA _ RL$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
 
  []
 
-<images/TP_FN.png, id=375, 720.6925pt x 185.69376pt>
+<images/TP_FN.png, id=363, 720.6925pt x 185.69376pt>
 File: images/TP_FN.png Graphic file (type png)
 <use images/TP_FN.png>
-Package pdftex.def Info: images/TP_FN.png  used on input line 1221.
+Package pdftex.def Info: images/TP_FN.png  used on input line 1228.
 (pdftex.def)             Requested size: 301.1261pt x 77.58849pt.
-[26] [27 <./images/TP_FN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1237
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1242
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1248
 
  []
 
-<images/error_rate.png, id=387, 1187.43625pt x 541.02126pt>
+<images/error_rate.png, id=371, 1187.43625pt x 541.02126pt>
 File: images/error_rate.png Graphic file (type png)
 <use images/error_rate.png>
-Package pdftex.def Info: images/error_rate.png  used on input line 1245.
+Package pdftex.def Info: images/error_rate.png  used on input line 1251.
 (pdftex.def)             Requested size: 418.25372pt x 190.56555pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1266
+[26 <./images/TP_FN.png> <./images/error_rate.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1272
 
  []
 
-[28 <./images/error_rate.png>]
-<images/static_reward.png, id=395, 571.63562pt x 470.75874pt>
+<images/static_reward.png, id=380, 571.63562pt x 470.75874pt>
 File: images/static_reward.png Graphic file (type png)
 <use images/static_reward.png>
-Package pdftex.def Info: images/static_reward.png  used on input line 1271.
+Package pdftex.def Info: images/static_reward.png  used on input line 1277.
 (pdftex.def)             Requested size: 301.1261pt x 247.98529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1276--1280
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1276--1280
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1305
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1313--1314
+
+ []
+
+[27 <./images/static_reward.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1332
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1326
-
- []
-
-[29 <./images/static_reward.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1327--1334
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1335--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1364--1372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1388
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1409
 
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1366
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1443
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1392--1404
+Underfull \hbox (badness 10000) in paragraph at lines 1449--1455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1406--1410
+Underfull \hbox (badness 10000) in paragraph at lines 1468--1476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1418--1425
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1426--1428
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1496
 
  []
 
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1429--1431
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1432--1435
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1439--1445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1458--1466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1479--1484
-
- []
-
-[33] [34]
+[32] [33]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1503--1511
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1515
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1525--1528
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1529--1532
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1544
 
  []
 
-[35
+[34
 
 
 
-] [36] [37]
-<images/classes.png, id=457, 1485.55pt x 877.2775pt>
+] [35] [36]
+<images/classes.png, id=446, 1485.55pt x 877.2775pt>
 File: images/classes.png Graphic file (type png)
 <use images/classes.png>
-Package pdftex.def Info: images/classes.png  used on input line 1621.
+Package pdftex.def Info: images/classes.png  used on input line 1633.
 (pdftex.def)             Requested size: 401.50146pt x 237.09566pt.
- [38
+ [37
 
  <./images/classes.png>]
 chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1627--1631
+Underfull \hbox (badness 10000) in paragraph at lines 1639--1643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1641--1649
+Underfull \hbox (badness 10000) in paragraph at lines 1653--1661
+
+ []
+
+[38
+
+
+]
+chapter 8.
+
+Overfull \hbox (6.77913pt too wide) in paragraph at lines 1664--1670
+\T1/lmr/m/n/10.95 (-20) wur-den wichtige Erken-nt-nisse er-langt, vo-rallem in Bezug auf die Eig-nung von Reinforcement-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1664--1670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1680
 
  []
 
@@ -1941,19 +2160,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1641--1649
 
 
 ]
-chapter 8.
+chapter 9.
 
-Overfull \hbox (6.77913pt too wide) in paragraph at lines 1652--1658
-\T1/lmr/m/n/10.95 (-20) wur-den wichtige Erken-nt-nisse er-langt, vo-rallem in Bezug auf die Eig-nung von Reinforcement-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1652--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1688--1690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1659--1668
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1696--1698
 
  []
 
@@ -1961,39 +2180,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 1659--1668
 
 
 ]
-chapter 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1676--1678
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1679--1683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1686
-
- []
-
-[41
-
-
-]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-[42
+[41
 
 
 ]
-Overfull \hbox (7.56348pt too wide) in paragraph at lines 1708--1708
+Overfull \hbox (7.56348pt too wide) in paragraph at lines 1720--1720
 \T1/lmtt/m/n/10.95 www . researchgate . net / publication / 353610724 _ Next _ Generation _ Sequencing$[]\T1/lmr/m/n/10.95 (-20) ;
  []
 
-[43]
+[42]
+chapter 10.
+
+LaTeX Warning: Hyper reference `acro:DNA' on page 43 undefined on input line 1728.
+
+
+LaTeX Warning: Hyper reference `acro:DNA' on page 43 undefined on input line 1728.
+
+
+LaTeX Warning: Hyper reference `acro:ML' on page 43 undefined on input line 1729.
+
+
+LaTeX Warning: Hyper reference `acro:ML' on page 43 undefined on input line 1729.
+
+
+LaTeX Warning: Hyper reference `acro:RL' on page 43 undefined on input line 1730.
+
+
+LaTeX Warning: Hyper reference `acro:RL' on page 43 undefined on input line 1730.
+
+
+LaTeX Warning: Hyper reference `acro:DQN' on page 43 undefined on input line 1731.
+
+
+LaTeX Warning: Hyper reference `acro:DQN' on page 43 undefined on input line 1731.
+
+
+LaTeX Warning: Hyper reference `acro:A2C' on page 43 undefined on input line 1732.
+
+
+LaTeX Warning: Hyper reference `acro:A2C' on page 43 undefined on input line 1732.
+
+
+LaTeX Warning: Hyper reference `acro:PPO' on page 43 undefined on input line 1733.
+
+
+LaTeX Warning: Hyper reference `acro:PPO' on page 43 undefined on input line 1733.
+
+
+LaTeX Warning: Hyper reference `acro:BERT' on page 43 undefined on input line 1734.
+
+
+LaTeX Warning: Hyper reference `acro:BERT' on page 43 undefined on input line 1734.
+
+
+LaTeX Warning: Hyper reference `acro:NGS' on page 43 undefined on input line 1735.
+
+
+LaTeX Warning: Hyper reference `acro:NGS' on page 43 undefined on input line 1735.
+
+
+LaTeX Warning: Hyper reference `acro:NLP' on page 43 undefined on input line 1736.
+
+
+LaTeX Warning: Hyper reference `acro:NLP' on page 43 undefined on input line 1736.
+
+
+LaTeX Warning: Hyper reference `acro:NLU' on page 43 undefined on input line 1737.
+
+
+LaTeX Warning: Hyper reference `acro:NLU' on page 43 undefined on input line 1737.
+
+
+LaTeX Warning: Hyper reference `acro:NLG' on page 43 undefined on input line 1738.
+
+
+LaTeX Warning: Hyper reference `acro:NLG' on page 43 undefined on input line 1738.
+
+
+LaTeX Warning: Hyper reference `acro:ASR' on page 43 undefined on input line 1739.
+
+
+LaTeX Warning: Hyper reference `acro:ASR' on page 43 undefined on input line 1739.
+
+
+LaTeX Warning: Hyper reference `acro:TTS' on page 43 undefined on input line 1740.
+
+
+LaTeX Warning: Hyper reference `acro:TTS' on page 43 undefined on input line 1740.
+
 
 Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrbook)              You should note, that `\appendix' is a mostly globally
@@ -2006,39 +2284,46 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrbook)              inconsistent.
 (scrbook)              Because of this, you should remove `\end{appendix}'
 (scrbook)              and replace `\begin{appendix}' by command
-(scrbook)              `\appendix' on input line 1720.
+(scrbook)              `\appendix' on input line 1749.
 
-chapter A.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1730.
 [1
 
 
-] [2] [3] [4] [5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2099
+]
+chapter A.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1759.
+[2
+
+
+] [3] [4] [5] [6] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2099
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2099
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2099
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2099
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2128
 \T1/lmr/m/n/10.95 (+20) -------------------------------------------------------
  []
 
-[9] (thesis.aux)
+[10] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2046,17 +2331,17 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30434 strings out of 476380
- 549258 string characters out of 5786163
+ 31036 strings out of 476380
+ 558104 string characters out of 5786163
  2431305 words of memory out of 5000000
- 49721 multiletter control sequences out of 15000+600000
- 593559 words of font info for 168 fonts, out of 8000000 for 9000
+ 50305 multiletter control sequences out of 15000+600000
+ 590334 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,13n,106p,10649b,2772s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmcsc10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmri10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmro10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on thesis.pdf (60 pages, 1398301 bytes).
+ 108i,13n,106p,10649b,2831s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmcsc10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmri10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmro10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on thesis.pdf (58 pages, 1377046 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 518 named destinations out of 1000 (max. 500000)
- 49639 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1275 PDF objects out of 1440 (max. 8388607)
+ 530 named destinations out of 1000 (max. 500000)
+ 47599 words of extra memory for PDF output out of 51595 (max. 10000000)
 
