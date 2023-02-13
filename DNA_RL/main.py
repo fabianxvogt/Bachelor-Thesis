@@ -25,9 +25,14 @@ from sb3_contrib import RecurrentPPO
 
 from utilities.plot_manager import PlotManager
 
-LEARNING_RATE = 0.00001
+BASE_PATH = "/Users/I570101/Documents/Bachelor-Thesis/DNA_RL/"
 
-BERT_MODEL = "BERT"
+LEARNING_RATE = 0.0001
+
+BERT_ENCODE_MODEL = "BERT"
+BERT_LANG_MODEL = "BERT_LM"
+BERT_MODEL = BERT_ENCODE_MODEL
+
 ENV = None
 ERROR_RATE = 0.1
 SAMPLE_SIZE = 100
@@ -39,7 +44,11 @@ SB3_POLICY = LSTM_POLICY
 if MODEL == A2C:
     SB3_POLICY = "MlpPolicy"
 
-MODE = 7
+
+KMER_SHIFT = 0 # -1 = First base of triplet / 0 = middle base of triplet / 1 = last base of triplet
+
+MODE = 1
+
 if MODE == 1: # detect multiple errors in a single iteration
     ENV = DNA_Error_Detection_Single_Run_Env
     MODEL_NAME = "DNA_detection_single_run"
@@ -52,23 +61,13 @@ elif MODE == 3:
 elif MODE == 4:
     ENV = DNA_Error_Detection_Sequential_Env
     MODEL_NAME = "DNA_detection_sequentially"
-elif MODE == 5:
-    #ENV = DNA_Error_Detection_Single2_Env
-    MODEL_NAME = "DNA_detection_single"
-elif MODE == 6: 
-    #ENV = DNA_Correction_Whole_Seq_Environment
-    MODEL_NAME = "DNA_correction_whole"
-elif MODE == 7: 
+elif MODE == 5: 
     ENV = DNA_Error_Detection_With_Masking_Correction_Env
     MODEL_NAME = "DNA_masking_correction"
 
 
-BASE_PATH = "/Users/I570101/Documents/Bachelor-Thesis/DNA_RL/"
-
-KMER_SHIFT = 1 # -1 = First base of triplet / 0 = middle base of triplet / 1 = last base of triplet
 MODEL_NAME += "_" + str(KMER_SHIFT)# +"_0.000001"
 
-#MODEL_NAME += "_new"
 MODEL_PATH = BASE_PATH + "model_data/" + BERT_MODEL + '/' + MODEL.__name__ + '/ErrorRate' + str(ERROR_RATE)
 MODEL_PATH += '/' + MODEL_NAME 
 
@@ -90,7 +89,7 @@ def train(model, env, no_of_steps, make_plot = True):
         )
 
     for counter in range(0,no_of_steps):
-        model.learning_starts = 500
+        model.learning_starts = 100
         model.learn(total_timesteps=1000)
         model.save(MODEL_PATH)
         

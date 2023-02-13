@@ -1,6 +1,4 @@
 from ..dna_process_by_nucleotide_env import DNA_Process_By_Nucleotide_Env
-
-import numpy as np
 from gym import spaces
 
 class DNA_Single_Run_Env(DNA_Process_By_Nucleotide_Env):
@@ -11,7 +9,7 @@ class DNA_Single_Run_Env(DNA_Process_By_Nucleotide_Env):
         # For a single run per Sequence, corrections are performed immediately,
         # instead of comparing probabilities for corrections on each base 
         # after a run has finished (see Dna_Single_Action_Per_Run_Env).
-        # Action directly correspont to a base correction at a specific index 
+        # Actions directly correspont to a base correction at a specific index 
         # and therefore, are discrete.
         return spaces.Discrete(self.get_action_space_size()) 
 
