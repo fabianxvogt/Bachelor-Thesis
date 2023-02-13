@@ -2,75 +2,71 @@
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem- und Zielstellung (Scope)}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{2}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Kontext}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Domain}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Technologien}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Methoden und Konzepte}{4}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}DNA-Sequenzierung}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Sanger}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Next Generation Sequencing}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Entstehung von Fehlern}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Korrekturans^^c3^^a4tze}{7}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Sprache der DNA}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Machine Learning f^^c3^^bcr DNA}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}NLP}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Transformer}{8}{subsection.2.4.2}%
-\contentsline {subsubsection}{\nonumberline Overfitting}{10}{subsubsection*.7}%
-\contentsline {subsection}{\numberline {2.4.3}BERT}{10}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}DNABERT}{11}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Reinforcement Learning}{12}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Grundlagen}{12}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Bekannte Anwendungsbeispiele}{13}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Anwendung zur DNA-Fehlererkennung}{13}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}DNA-Korrektur Environment}{14}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Agentenmodelle}{14}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Unterschiedliche Ans^^c3^^a4tze bei der Korrektur}{16}{subsection.2.5.6}%
-\contentsline {chapter}{\numberline {3}Methodologie}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Ergebnisartefakte}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Datenschutzaspekte}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Ethische Aspekte}{18}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Anforderungserhebung und -analyse}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Nutzer- und Systemanforderungen}{19}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Funktionale Anforderungen}{19}{subsection.4.1.1}%
-\contentsline {subsubsection}{\nonumberline Obligatorisch (MUSS)}{19}{subsubsection*.9}%
-\contentsline {subsubsection}{\nonumberline Fakultativ (Kann)}{19}{subsubsection*.11}%
-\contentsline {subsection}{\numberline {4.1.2}Nicht-funktionale Anforderungen}{19}{subsection.4.1.2}%
-\contentsline {subsubsection}{\nonumberline Obligatorisch (MUSS)}{19}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Fakultativ (Kann)}{19}{subsubsection*.15}%
-\contentsline {section}{\numberline {4.2}M^^c3^^b6gliche Probleme}{19}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Konzeption \& Entwurf}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Prozessarchitektur}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Schnittstellen}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Datenmanagement}{21}{section.5.3}%
-\contentsline {section}{\numberline {5.4}L^^c3^^b6sungsans^^c3^^a4tze}{21}{section.5.4}%
-\contentsline {section}{\numberline {5.5}DNA-Umgebung}{21}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Erwartungswerte}{22}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Berechnung der Agenten-Belohnung}{22}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Basenweise Verarbeitung}{25}{subsection.5.7.1}%
-\contentsline {subsubsection}{\nonumberline Fehlererkennung}{25}{subsubsection*.23}%
-\contentsline {subsubsection}{\nonumberline Fehlerkorrektur}{25}{subsubsection*.25}%
-\contentsline {subsubsection}{\nonumberline 1. Ansatz: Korrektur durch Agent}{26}{subsubsection*.27}%
-\contentsline {subsubsection}{\nonumberline 2. Ansatz: Korrektur durch DNABERT Maskierung}{27}{subsubsection*.30}%
-\contentsline {subsection}{\numberline {5.7.2}Sequenzweise Verarbeitung}{27}{subsection.5.7.2}%
-\contentsline {subsubsection}{\nonumberline Fehlererkennung}{27}{subsubsection*.32}%
-\contentsline {subsubsection}{\nonumberline Fehlerkorrektur}{27}{subsubsection*.34}%
-\contentsline {section}{\numberline {5.8}...}{27}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Implementierung}{28}{chapter.6}%
-\contentsline {section}{\numberline {6.1}OpenAI Gym-Environments}{28}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Umsetzung der Ans^^c3^^a4tze}{28}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Test}{32}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Darstellung und Bewertung der Ergebnisse}{33}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Beurteilung des Reinforcement Learning als Ansatz zur DNA-Fehlerkorrektur}{34}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Zusammenfassung}{35}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Schlussfolgerungen}{35}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Limitationen}{35}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Ausblick}{35}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Bibliography}{36}{chapter.11}%
-\contentsline {chapter}{\nonumberline Quellenverzeichnis}{37}{chapter*.36}%
-\contentsline {chapter}{\numberline {12}Abk^^c3^^bcrzungsverzeichnis}{39}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Glossar}{I}{chapter.13}%
-\contentsline {chapter}{\numberline {A}Appendix}{II}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Quell-Code}{II}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipps zum Schreiben Ihrer Abschlussarbeit}{II}{section.A.2}%
+\contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Kontext}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Domain}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Technologien}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Methoden und Konzepte}{5}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}DNA-Sequenzierung}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sanger}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Next Generation Sequencing}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Entstehung von Fehlern}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Korrekturans^^c3^^a4tze}{8}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Sprache der DNA}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Machine Learning f^^c3^^bcr DNA}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}NLP}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Transformer}{11}{subsection.2.4.2}%
+\contentsline {subsubsection}{\nonumberline Overfitting}{12}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {2.4.3}BERT}{12}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}DNABERT}{13}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Reinforcement Learning}{15}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Grundlagen}{15}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Bekannte Anwendungsbeispiele}{16}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Anwendung zur DNA-Fehlererkennung}{17}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}DNA-Korrektur Environment}{17}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Agentenmodelle}{18}{subsection.2.5.5}%
+\contentsline {subsubsection}{\nonumberline Deep Q-Network (DQN)}{18}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Advantage Actor-Critic (A2C)}{18}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Proximal Policy Optimization (PPO)}{19}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.5.6}Unterschiedliche Ans^^c3^^a4tze bei der Korrektur}{19}{subsection.2.5.6}%
+\contentsline {chapter}{\numberline {3}Methodologie}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ergebnisartefakte}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Datenschutzaspekte}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Ethische Aspekte}{22}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Anforderungserhebung und -analyse}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Nutzer- und Systemanforderungen}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Funktionale Anforderungen}{23}{subsection.4.1.1}%
+\contentsline {subsubsection}{\nonumberline Obligatorisch (MUSS)}{23}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Fakultativ (Kann)}{23}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {4.1.2}Nicht-funktionale Anforderungen}{23}{subsection.4.1.2}%
+\contentsline {subsubsection}{\nonumberline Obligatorisch (MUSS)}{23}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Fakultativ (Kann)}{23}{subsubsection*.21}%
+\contentsline {section}{\numberline {4.2}M^^c3^^b6gliche Probleme}{23}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Konzeption \& Entwurf}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prozessarchitektur}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Schnittstellen}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Datenmanagement}{26}{section.5.3}%
+\contentsline {section}{\numberline {5.4}DNA-Umgebung}{26}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Erwartungswerte}{28}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Berechnung der Agenten-Belohnung}{28}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Optimierung der Belohnung}{29}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Basenweise Verarbeitung}{31}{subsection.5.6.2}%
+\contentsline {subsubsection}{\nonumberline Fehlererkennung}{32}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Fehlerkorrektur}{32}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline 1. Ansatz: Korrektur durch Agent}{32}{subsubsection*.33}%
+\contentsline {subsubsection}{\nonumberline 2. Ansatz: Korrektur durch DNABERT Maskierung}{33}{subsubsection*.36}%
+\contentsline {subsection}{\numberline {5.6.3}Sequenzweise Verarbeitung}{34}{subsection.5.6.3}%
+\contentsline {subsubsection}{\nonumberline Fehlererkennung}{34}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Fehlerkorrektur}{34}{subsubsection*.40}%
+\contentsline {chapter}{\numberline {6}Implementierung}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}OpenAI Gym-Environments}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Umsetzung der Ans^^c3^^a4tze}{35}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Darstellung und Bewertung der Ergebnisse}{39}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Beurteilung des Reinforcement Learning als Ansatz zur DNA-Fehlerkorrektur}{40}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Zusammenfassung}{41}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Limitationen}{41}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Ausblick}{41}{section.9.2}%
+\contentsline {chapter}{\nonumberline Bibliography}{42}{chapter*.42}%
+\contentsline {chapter}{\numberline {A}Appendix}{I}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Quell-Code}{I}{section.A.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

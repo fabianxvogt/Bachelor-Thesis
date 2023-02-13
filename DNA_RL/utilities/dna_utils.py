@@ -1,13 +1,11 @@
 
-from Bio import SeqIO
-from Bio.Seq import Seq
 import random 
 import math 
 from .bert_utils import generate_dnabert_states
 
 
 BASES = ['A', 'C', 'G', 'T']
-ERROR_PROPABILITY = 0.15
+ERROR_PROPABILITY = 0.10
 
 def distort_seq(dna, probability, seed = None):
     error_dna = ""

@@ -308,6 +308,16 @@
     \field{year}{2021}
   \endentry
 
+  \entry{humanDNAsample}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Online:
+  \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_000012.12?feature=any}; letzter
+  Zugriff: 13.02.2023}
+    \field{title}{Menschenliche Beispiel-DNA für das Training}
+  \endentry
+
   \entry{metzker2005}{article}{}
     \name{author}{1}{}{%
       {{hash=MML}{%

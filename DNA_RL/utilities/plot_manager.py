@@ -75,7 +75,9 @@ class PlotManager:
         
         plt.close() # close existing plot
         
-        [plt.plot(data, label=label) for (data, label) in [
+        fig = plt.figure()
+        ax = plt.subplot(111)
+        [ax.plot(data, label=label) for (data, label) in [
             (np.array(self.error_rate_history), "Error rate"),
             (np.array(self.action_rate_history), "Action rate"),
             (np.array(self.errors_made_history) / total_actions_history, "Errors made out of total actions"),
@@ -83,11 +85,14 @@ class PlotManager:
             (np.array(self.errors_found_history) / total_actions_history, "Errors found out of total actions"),
             (np.array(self.errors_found_history) / total_errors_history, "Errors found out of total errors"),
         ]]
-        
-        plt.legend(loc="lower left", bbox_to_anchor=(0,0))
+        box = ax.get_position()
+        ax.set_position([box.x0, box.y0, box.width, box.height* 0.8])
+        ax.legend(loc='lower center', bbox_to_anchor=(0.5, 1.05),
+          ncol=2, fancybox=True, shadow=True)
+        #plt.legend(loc="lower left", bbox_to_anchor=(0,0))
         plt.ylim(0, 1.0)
 
-        plt.grid(color='grey', linestyle='-', linewidth=0.5)
+        ax.grid(color='grey', linestyle='-', linewidth=0.5)
         plt.xlabel("Timesteps")
         plt.ylabel("Probability")
         

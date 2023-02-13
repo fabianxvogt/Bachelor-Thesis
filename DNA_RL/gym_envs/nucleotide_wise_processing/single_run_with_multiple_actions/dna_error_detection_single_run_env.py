@@ -1,6 +1,4 @@
 
-
-from utilities.dna_utils import seq_similarity
 from gym_envs.nucleotide_wise_processing.single_run_with_multiple_actions.dna_single_run_env import DNA_Single_Run_Env
 from gym_envs.dna_error_detection_env import DNA_Error_Detection_Env
 
@@ -34,7 +32,7 @@ class DNA_Error_Detection_Single_Run_Env(DNA_Error_Detection_Env, DNA_Single_Run
         error_rate = self.errors_total/self.total_steps if self.errors_total > 100 else 0.1
         action_rate = self.actions_total/self.total_steps if self.actions_total > 100 else error_rate
 
-        good_action_ratio = self.errors_corrected_total/(self.errors_made_total+self.errors_corrected_total) if self.corrects_found_total > 0 else action_rate
+        good_action_ratio = self.errors_found_total/(self.errors_made_total+self.errors_found_total) if self.errors_found_total > 0 else action_rate
         
         desired_action_rate = 0.1 + (1-good_action_ratio) / 2
 
